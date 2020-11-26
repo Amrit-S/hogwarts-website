@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    display: block;
+    width: 20vw;
+    height: 100%;
+    border-radius: 150vw;
+    object-fit: cover;
+    image-rendering: pixelated;
+  }
+  
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 20vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 150vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .inner-text {
+    color: wheat;
+    font-size: 3vw;
+    text-align: center;
+    font-style: italic;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .inner-text {
+        color: wheat;
+        font-size: 5vw;
+        text-align: center;
+        font-style: italic;
+      }
+
+    .container {
+        width: 65%;
+        height: 60vw;
+      }
+      
+      .image {
+        width: 70%;
+        height: 60vw;
+        border-radius: 150vw;
+      }
+      
+      .overlay {
+        height: 60vw;
+        width: 66%;
+        border-radius: 150vw;
+      }
+}

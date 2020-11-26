@@ -1,0 +1,54 @@
+.welcomeText{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: -10%;
+    background-color: rgba(184, 134, 11, 0.8);
+    width: 100%;
+}
+
+.welcomeText h5{
+    font-size: 3vw;
+}
+
+.welcomeText h{
+    font-size: 1.5vw;
+}
+
+.featureImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vw;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .welcomeText{
+        margin-top: -15%;
+    }
+
+    .welcomeText h5{
+        font-size: 5vw;
+    }
+    
+    .welcomeText h{
+        font-size: 3vw;
+    }
+
+    .featureImages{
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+}
