@@ -40,8 +40,9 @@ render() {
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
             {/* Pages within the website */}
-            <Nav.Link href="/classes" > Classes </Nav.Link>
+            <Nav.Link href="/classes" > Academics </Nav.Link>
             <Nav.Link href="/founders">Founders</Nav.Link>
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
             </Nav>
             <Nav>
             {/* Social Media Links */}

@@ -9,6 +9,7 @@ import {
 import HomePage from './pages/HomePage';
 import ClassesPage from './pages/ClassesPage';
 import FoundersPage from './pages/FoundersPage';
+import GalleryPage from './pages/GalleryPage';
 
 
 
@@ -20,6 +21,7 @@ class App extends React.Component{
           <Route path="/" exact render={(props) => <HomePage {...props}/>}/>
           <Route path="/classes" exact render={(props) => <ClassesPage {...props}/>}/>
           <Route path="/founders" exact render={(props) => <FoundersPage {...props}/>}/>
+          <Route path="/gallery" exact render={(props) => <GalleryPage {...props}/>}/>
         </Switch>
       </Router>
     );

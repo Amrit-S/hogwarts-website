@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
  *      - At least 3 classes listed along with a course description + main instructor  
  *      - Try to make this into a catalogue of sorts with drop down options 
  *      - All images on the website should not be right-clickable (I suggest making a component that does this)
+ *      - Page should be responsive to different sizes (i.e. mobile & desktop adaptable)
  */
 class ClassesPage extends Component {
 
