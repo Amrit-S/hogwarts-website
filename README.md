@@ -2,7 +2,7 @@
 
 _Requires Node.js & npm (14.15+) to be installed!_
 
-Git clone directory, cd into directory, and then run `npm install` followed by `npm start`. Website should now be run on port 3000 locally. 
+Git clone directory, cd into directory, and then run `npm install` followed by `npm start`. Website should now be run on port 3000 locally:  http://localhost:3000. 
 
 # Project Breakdown
 Project is focused on improving your front-end skills, so I'm having you implement the code for about 3 pages on the website. Specifically, `Classes.js`, `Gallery.js`, and `Founders.js` which can be found under `src/pages`. I've commented a "recommended" list of features I'd want for every page at the top of their respective files, but its really up to you if you want to go more complicated/more simple.
