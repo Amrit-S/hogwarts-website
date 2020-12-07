@@ -1,3 +1,7 @@
+# Set-up
+
+Git clone directory, cd into directory, and then run `npm install` followed by `npm start`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
