@@ -6,11 +6,12 @@ Project is focused on improving your front-end skills, so I'm having you impleme
 
 I've already implemented `HomePage.js` as a straightforward reference in case you need guidance on how to structure code, break up a page into components, CSS example on making a page responsive, etc. For simplicity purposes, I've made the "client" of the website be Hogwarts so try to focus page content around Harry Potter series though you can reformat the client as you'd like.
 
-Only directory you need to worry about is `src`. Its broken into pages, components, css, and media, so compartmentalize your project accordingly. A few of the features will require library usage so leverage node modules accordingly.
+Only directory you need to worry about is `src`. Its broken into `pages`, `components`, `css`, and `media`, so compartmentalize your project accordingly. A few of the features will require library usage so leverage node modules accordingly.
 
 Lastly, the project isn't strictly required for you to do, but I recommend it if you don't have a lot of experience with React/you're a bit rusty on web development/want more practice. Let me know if you have questions.
 
 Front-End Project Done Last Year (For Reference): https://github.com/TritonSE/dynamics-website
+
 React Fundamental Slides (For Refresher): https://docs.google.com/presentation/d/1FXC7_gk30t6sUGqPuE8sMiqF6k8X5LgkAQ_0COQG6Pk/edit#slide=id.gad6a360c9e_1_0
 
 # Getting Started with Create React App
